@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=yes, width=500" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+    <title>
+    
+            Edit
+        - AnkiWeb
+    
+    </title>
+
+    <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    -->
+    <link rel="stylesheet" href="/static/app.css?_=ede86645edb75e797ef42ca59b623707" type="text/css" media="screen" />
+
+
+    
+
+</head>
+<body>
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                        <td valign=center align=right style="padding-right: 1em;">
+                                <a href="/account/settings"
+                                   class="mitem2">Settings</a> <span
+                                    style="color: #777;">|</span>
+                                <a href="/account/logout" class="mitem2">Logout</a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td valign=bottom align=right>
+                                <a href="/decks/" class="mitem">Decks</a>
+                                <a href="/study/" class="mitem">Study</a>
+                                <a href="/edit/" class="mitem">Add</a>
+                                <a href="/search/" class="mitem">Search</a>
+                            </td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="contentOuter">
+        <div id="content">
+            
+
+<h1 id=toptitle>Add</h1>
+
+<table id=modelarea width=100%>
+<tr>
+<td class=fname><b>Note Type</b></td>
+<td><select id=models></select>
+</td>
+<td>
+<button class=mitem3 onclick='editor.save();'>Save</button></td>
+</tr>
+<tr>
+<td class=fname><label for="deck">Deck</label></td>
+<td><input id=deck></td>
+<td><div id=msg style="color: blue;"></div></td>
+</tr>
+</table>
+<br>
+
+<div id=save2>
+<button class=mitem3 onclick='editor.save();'>Save</button>
+</div>
+
+<div id=fields></div>
+
+
+
+        </div>
+    </div>
+
+    <div id="footer">
+        <ul class="menu">
+        <li><a href="/about">About</a>
+            <li><a href="https://help.ankiweb.net">Support</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+    <script src="/static/vendor.js?_=28d8596f85bf59d0905a60c842f452c0" type="text/javascript"></script>
+    <script src="/static/app.js?_=263bf5da75b905581ebe73a5be78e86d" type="text/javascript"></script>
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    -->
+
+    
+    <script>
+        var editor = require("editor");
+
+        if (editor.version != "20170111") {
+            window.location = "/";
+        }
+        editor.csrf_token = 'eyJpYXQiOiAxNDg3NzA5NjMwLCAiZmxhZyI6IDEsICJ1aWQiOiAiODMxNWYyMmUiLCAib3AiOiAiZWRpdCJ9.wRPXJtX2-uaSvWKRt77Meqc-LQfuaQA9PChgwfXurZg';
+        editor.csrf_token2 = 'eyJpYXQiOiAxNDg3NzA5NjMwLCAidWlkIjogIjgzMTVmMjJlIiwgIm9wIjogImVkaXQifQ.Z97TIcp0tqT6zTZLLXHOEmucjaXTrJm74GKRtAgaexE';
+                $("#toptitle").text("Add");
+
+                editor.mode = "add";
+                editor.models = [{"vers": [], "name": "Einfach-b3ebb", "tags": [], "did": 1342700450247, "usn": 0, "req": [[0, "all", [0]]], "flds": [{"name": "Front", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 12}, {"name": "Back", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 12}], "sortf": 0, "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", "tmpls": [{"name": "Forward", "qfmt": "{{Front}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", "ord": 0, "bqfmt": ""}], "latexPost": "\\end{document}", "type": 0, "id": "1342700450013", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #FFFFFF; }", "mod": 1447022219}, {"vers": [], "name": "Einfach", "tags": [], "did": 1342700454655, "usn": 11, "req": [[0, "all", [0]]], "flds": [{"name": "Front", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 12}, {"name": "Back", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 12}], "sortf": 0, "tmpls": [{"name": "Forward", "qfmt": "{{Front}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", "ord": 0, "bqfmt": ""}], "mod": 1484179292, "latexPost": "\\end{document}", "type": 0, "id": "1342700454222", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #FFFFFF; }", "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n"}, {"vers": [], "name": "Memrise - 4000 German Words by Frequency", "tags": [], "did": 1421051755676, "usn": 11, "req": [[0, "any", [1, 5, 6, 7, 17]], [1, "any", [0, 2, 3, 9, 13, 14, 15, 18]]], "flds": [{"name": "German", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 20}, {"name": "Picture", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 20}, {"name": "German Alternatives", "media": [], "sticky": false, "rtl": false, "ord": 2, "font": "Arial", "size": 20}, {"name": "German Hidden Alternatives", "media": [], "sticky": false, "rtl": false, "ord": 3, "font": "Arial", "size": 20}, {"name": "German Typing Corrects", "media": [], "sticky": false, "rtl": false, "ord": 4, "font": "Arial", "size": 20}, {"name": "English", "media": [], "sticky": false, "rtl": false, "ord": 5, "font": "Arial", "size": 20}, {"name": "English Alternatives", "media": [], "sticky": false, "rtl": false, "ord": 6, "font": "Arial", "size": 20}, {"name": "English Hidden Alternatives", "media": [], "sticky": false, "rtl": false, "ord": 7, "font": "Arial", "size": 20}, {"name": "English Typing Corrects", "media": [], "sticky": false, "rtl": false, "ord": 8, "font": "Arial", "size": 20}, {"name": "Plural and inflected forms", "media": [], "sticky": false, "rtl": false, "ord": 9, "font": "Arial", "size": 20}, {"name": "Plural and inflected forms Alternatives", "media": [], "sticky": false, "rtl": false, "ord": 10, "font": "Arial", "size": 20}, {"name": "Plural and inflected forms Hidden Alternatives", "media": [], "sticky": false, "rtl": false, "ord": 11, "font": "Arial", "size": 20}, {"name": "Plural and inflected forms Typing Corrects", "media": [], "sticky": false, "rtl": false, "ord": 12, "font": "Arial", "size": 20}, {"name": "Sample sentence", "media": [], "sticky": false, "rtl": false, "ord": 13, "font": "Arial", "size": 20}, {"name": "Sample sentence Alternatives", "media": [], "sticky": false, "rtl": false, "ord": 14, "font": "Arial", "size": 20}, {"name": "Sample sentence Hidden Alternatives", "media": [], "sticky": false, "rtl": false, "ord": 15, "font": "Arial", "size": 20}, {"name": "Sample sentence Typing Corrects", "media": [], "sticky": false, "rtl": false, "ord": 16, "font": "Arial", "size": 20}, {"name": "Part of Speech", "media": [], "sticky": false, "rtl": false, "ord": 17, "font": "Arial", "size": 20}, {"name": "Audio", "media": [], "sticky": false, "rtl": false, "ord": 18, "font": "Arial", "size": 20}, {"name": "Level", "media": [], "sticky": false, "rtl": false, "ord": 19, "font": "Arial", "size": 20}, {"name": "Thing", "media": [], "sticky": false, "rtl": false, "ord": 20, "font": "Arial", "size": 20}], "sortf": 0, "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", "tmpls": [{"name": "English -> German", "qfmt": "{{English}}<br/>\n{{#Picture}}{{Picture}}<br/>{{/Picture}}\n{{#English Alternatives}}<span class=\"alts\">{{English Alternatives}}</span><br/>{{/English Alternatives}}\n{{#English Hidden Alternatives}}<span class=\"alts\">{{English Hidden Alternatives}}</span><br/>{{/English Hidden Alternatives}}\n{{#Part of Speech}}(<span class=\"attrs\">{{Part of Speech}}</span>)<br/>{{/Part of Speech}}\n", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=\"answer\" />\n\n{{German}}{{#Audio}}<div style=\"display:none;\">{{Audio}}</div>{{/Audio}}<br/>\n{{#German Alternatives}}<span class=\"alts\">{{German Alternatives}}</span><br/>{{/German Alternatives}}\n{{#German Hidden Alternatives}}<span class=\"alts\">{{German Hidden Alternatives}}</span><br/>{{/German Hidden Alternatives}}\n{{#Sample sentence}}<span class=\"sentence\">{{Sample sentence}}</span><br/>{{/Sample sentence}}\n{{#Sample sentence Alternatives}}<span class=\"sentence\">{{Sample sentence Alternatives}}</span><br/>{{/Sample sentence Alternatives}}\n{{#Sample sentence Hidden Alternatives}}<span class=\"sentence\">{{Sample sentence Hidden Alternatives}}</span><br/>{{/Sample sentence Hidden Alternatives}}\n<br/>\n{{#Plural and inflected forms}}<div class=\"plural\">Plural: {{Plural and inflected forms}}{{#Plural and inflected forms Alternatives}}, {{Plural and inflected forms Alternatives}}{{/Plural and inflected forms Alternatives}}{{#Plural and inflected forms Hidden Alternatives}}, {{Plural and inflected forms Hidden Alternatives}}{{/Plural and inflected forms Hidden Alternatives}}</div><br/>{{/Plural and inflected forms}}\n", "ord": 0, "bqfmt": ""}, {"name": "German -> English", "qfmt": "{{German}}{{#Audio}}<div style=\"display:none;\">{{Audio}}</div>{{/Audio}}<br/>\n{{#German Alternatives}}<span class=\"alts\">{{German Alternatives}}</span><br/>{{/German Alternatives}}\n{{#German Hidden Alternatives}}<span class=\"alts\">{{German Hidden Alternatives}}</span><br/>{{/German Hidden Alternatives}}\n{{#Sample sentence}}<span class=\"sentence\">{{Sample sentence}}</span><br/>{{/Sample sentence}}\n{{#Sample sentence Alternatives}}<span class=\"sentence\">{{Sample sentence Alternatives}}</span><br/>{{/Sample sentence Alternatives}}\n{{#Sample sentence Hidden Alternatives}}<span class=\"sentence\">{{Sample sentence Hidden Alternatives}}</span><br/>{{/Sample sentence Hidden Alternatives}}\n<br/>\n{{#Plural and inflected forms}}<div class=\"plural\">Plural: {{Plural and inflected forms}}{{#Plural and inflected forms Alternatives}}, {{Plural and inflected forms Alternatives}}{{/Plural and inflected forms Alternatives}}{{#Plural and inflected forms Hidden Alternatives}}, {{Plural and inflected forms Hidden Alternatives}}{{/Plural and inflected forms Hidden Alternatives}}</div><br/>{{/Plural and inflected forms}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=\"answer\" />\n\n{{English}}<br/>\n{{#Picture}}{{Picture}}<br/>{{/Picture}}\n{{#English Alternatives}}<span class=\"alts\">{{English Alternatives}}</span><br/>{{/English Alternatives}}\n{{#English Hidden Alternatives}}<span class=\"alts\">{{English Hidden Alternatives}}</span><br/>{{/English Hidden Alternatives}}\n{{#Part of Speech}}(<span class=\"attrs\">{{Part of Speech}}</span>)<br/>{{/Part of Speech}}\n", "ord": 1, "bqfmt": ""}], "latexPost": "\\end{document}", "type": 0, "id": "1421053828818", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.alts {\n font-size: 14px;\n}\n.attrs {\n font-style: italic;\n font-size: 14px;\n}\n.plural {\n text-align: left;\n}\n.sentence {\n font-style: italic;\n}", "mod": 1484179312}, {"vers": [], "name": "Basic", "tags": [], "did": 1, "usn": 11, "req": [[0, "all", [0]]], "flds": [{"name": "Front", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Liberation Sans", "size": 20}, {"name": "Back", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Liberation Sans", "size": 20}], "sortf": 0, "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", "tmpls": [{"name": "Card 1", "qfmt": "{{Front}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", "ord": 0, "bqfmt": ""}], "latexPost": "\\end{document}", "type": 0, "id": "1447021827098", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", "mod": 1484178877}, {"vers": [], "name": "Cloze", "tags": [], "did": 1, "usn": 0, "flds": [{"name": "Text", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 20}, {"name": "Extra", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 20}], "sortf": 0, "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", "tmpls": [{"name": "Cloze", "qfmt": "{{cloze:Text}}", "did": null, "bafmt": "", "afmt": "{{cloze:Text}}<br>\n{{Extra}}", "ord": 0, "bqfmt": ""}], "latexPost": "\\end{document}", "type": 1, "id": "1447021827092", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", "mod": 1447021827}, {"vers": [], "name": "Basic (optional reversed card)", "tags": [], "did": 1, "usn": 0, "req": [[0, "all", [0]], [1, "all", [1, 2]]], "flds": [{"name": "Front", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 20}, {"name": "Back", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 20}, {"name": "Add Reverse", "media": [], "sticky": false, "rtl": false, "ord": 2, "font": "Arial", "size": 20}], "sortf": 0, "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", "tmpls": [{"name": "Card 1", "qfmt": "{{Front}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", "ord": 0, "bqfmt": ""}, {"name": "Card 2", "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}", "ord": 1, "bqfmt": ""}], "latexPost": "\\end{document}", "type": 0, "id": "1447021827093", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", "mod": 1447021827}, {"vers": [], "name": "Basic (and reversed card)", "tags": [], "did": 1, "usn": 11, "req": [[0, "all", [0]], [1, "all", [1]]], "flds": [{"name": "Front", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 20}, {"name": "Back", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 20}], "sortf": 0, "tmpls": [{"name": "Card 1", "qfmt": "{{Front}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", "ord": 0, "bqfmt": ""}, {"name": "Card 2", "qfmt": "{{Back}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}", "ord": 1, "bqfmt": ""}], "mod": 1484178827, "latexPost": "\\end{document}", "type": 0, "id": "1447021827097", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n"}];
+                editor.decks = {"1": {"name": "Default", "extendRev": 50, "usn": 28, "collapsed": false, "browserCollapsed": true, "newToday": [471, 0], "mid": "1447021827097", "dyn": 0, "extendNew": 10, "lrnToday": [471, 0], "conf": 1, "revToday": [471, 0], "timeToday": [471, 0], "id": 1, "mod": 1487554111, "desc": ""}, "1483980357215": {"name": "Deutsch", "extendRev": 50, "usn": 24, "collapsed": false, "browserCollapsed": true, "newToday": [471, 0], "mid": "1447021827097", "dyn": 0, "extendNew": 10, "lrnToday": [471, 0], "conf": 1, "revToday": [471, 0], "timeToday": [471, 0], "id": 1483980357215, "mod": 1486932403, "desc": ""}, "1483980357216": {"desc": "", "name": "Deutsch::Verben", "extendRev": 50, "usn": 24, "collapsed": false, "browserCollapsed": true, "newToday": [471, 0], "timeToday": [471, 0], "dyn": 0, "extendNew": 10, "conf": 1, "revToday": [471, 0], "lrnToday": [471, 0], "id": 1483980357216, "mod": 1486932403}, "1483980403680": {"name": "Deutsch::Nomen", "extendRev": 50, "usn": 28, "collapsed": false, "browserCollapsed": true, "mid": "1447021827097", "newToday": [471, 0], "timeToday": [471, 0], "dyn": 0, "extendNew": 10, "conf": 1, "revToday": [471, 0], "lrnToday": [471, 0], "id": 1483980403680, "mod": 1487554477, "desc": ""}};
+                editor.curModelID = "1447021827097";
+
+        $(function () {
+            editor.init();
+        });
+    </script>
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-4621885-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>

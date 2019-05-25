@@ -1,0 +1,663 @@
+[
+	{
+		"lang": "de",
+		"hits": [
+			{
+				"type": "entry",
+				"opendict": false,
+				"roms": [
+					{
+						"headword": "Haus",
+						"headword_full": "Haus <span class=\"flexion\">&lt;-es, Häuser&gt;<\/span> <span class=\"phonetics\">[haus, <span class=\"info\"><acronym title=\"plural\">pl<\/acronym><\/span> ˈhɔyzɐ]<\/span> <span class=\"wordclass\"><acronym title=\"noun\">NOUN<\/acronym><\/span> <span class=\"genus\"><acronym title=\"neuter\">nt<\/acronym><\/span>",
+						"wordclass": "noun",
+						"arabs": [
+							{
+								"header": "1. Haus <span class=\"sense\">(Wohngebäude)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "house"
+									},
+									{
+										"source": "<span class=\"example\">das Internat bestand aus mehreren Häusern<\/span>",
+										"target": "the boarding school consisted of several buildings"
+									},
+									{
+										"source": "<span class=\"example\">es wird schon kühl, lass uns ins <strong class=\"tilde\">Haus<\/strong> gehen<\/span>",
+										"target": "it&#39;s getting cool, let&#39;s go indoors <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> inside]<\/span>"
+									},
+									{
+										"source": "<span class=\"example\">meine Klavierlehrerin kommt immer ins <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "my piano teacher always comes to our house"
+									},
+									{
+										"source": "<span class=\"example\">bei der Kälte bleibe ich lieber im <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "I prefer to stay indoors <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> inside]<\/span> when it&#39;s cold"
+									},
+									{
+										"source": "<span class=\"full_collocation\"> <strong class=\"tilde\">Haus<\/strong> an <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "next door"
+									},
+									{
+										"source": "<span class=\"example\">wir wohnen <strong class=\"tilde\">Haus<\/strong> an <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "we live next door to each other"
+									},
+									{
+										"source": "<span class=\"full_collocation\">aus dem <strong class=\"tilde\">Haus<\/strong> gehen<\/span>",
+										"target": "to leave the house"
+									},
+									{
+										"source": "<span class=\"full_collocation\">von <strong class=\"tilde\">Haus<\/strong> zu <strong class=\"tilde\">Haus<\/strong> gehen/wandern/ziehen<\/span>",
+										"target": "to go/wander/roam from house to house <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> door to door]<\/span>"
+									},
+									{
+										"source": "<span class=\"full_collocation\">das <strong class=\"tilde\">Haus<\/strong> Gottes<\/span> <span class=\"full_collocation\">[<span class=\"or\"><acronym title=\"oder\">o.<\/acronym><\/span> <span class=\"style\"><acronym title=\"formal\">geh<\/acronym><\/span> des Herrn]<\/span>",
+										"target": "the house of God <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> <span class=\"style\"><acronym title=\"formal\">form<\/acronym><\/span> the Lord]<\/span>"
+									},
+									{
+										"source": "<span class=\"full_collocation\"> <strong class=\"tilde\">Haus<\/strong> und Hof verlieren<\/span>",
+										"target": "to lose house and home"
+									},
+									{
+										"source": "<span class=\"full_collocation\"> <strong class=\"tilde\">Haus<\/strong> der Jugend<\/span>",
+										"target": "youth centre"
+									},
+									{
+										"source": "<span class=\"full_collocation\"><acronym title=\"jemand\">jd<\/acronym>/<acronym title=\"etwas\">etw<\/acronym> kommt <acronym title=\"jemandem\">jdm<\/acronym> nicht ins <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "<acronym title=\"somebody\">sb<\/acronym> does not allow <acronym title=\"somebody\">sb<\/acronym>/<acronym title=\"something\">sth<\/acronym> in the house"
+									},
+									{
+										"source": "<span class=\"example\">eine Katze kommt mir nicht ins <strong class=\"tilde\">Haus!<\/strong><\/span>",
+										"target": "I&#39;m not having a cat in the house!"
+									},
+									{
+										"source": "<span class=\"full_collocation\">ein öffentliches <strong class=\"tilde\">Haus\n<\/strong> <\/span> <span class=\"rhetoric\"><acronym title=\"euphemistic\">euph<\/acronym><\/span> <span class=\"age\"><acronym title=\"old language\">veraltet<\/acronym><\/span> <span class=\"sense\">(Bordell)<\/span>",
+										"target": "a house of ill repute"
+									},
+									{
+										"source": "<span class=\"full_collocation\">das Weiße <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "the White House"
+									}
+								]
+							},
+							{
+								"header": "2. Haus <span class=\"sense\">(Wohnung, Zuhause, Heim)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "home"
+									},
+									{
+										"source": "<span class=\"full_collocation\">aus dem <strong class=\"tilde\">Haus<\/strong> sein<\/span>",
+										"target": "to have left home"
+									},
+									{
+										"source": "<span class=\"full_collocation\">außer <strong class=\"tilde\">Haus<\/strong> essen<\/span>",
+										"target": "to eat out"
+									},
+									{
+										"source": "<span class=\"example\">am Wochenende essen sie außer <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "they eat out at weekends"
+									},
+									{
+										"source": "<span class=\"full_collocation\">frei <strong class=\"tilde\">Haus<\/strong> liefern<\/span> <span class=\"topic\"><acronym title=\"economics\">ÖKON<\/acronym><\/span>",
+										"target": "to deliver free of charge"
+									},
+									{
+										"source": "<span class=\"full_collocation\">nichts mehr im <strong class=\"tilde\">Haus<\/strong> haben<\/span>",
+										"target": "to have nothing [left] [to eat/drink] in the house"
+									},
+									{
+										"source": "<span class=\"full_collocation\">[<acronym title=\"etwas\">etw<\/acronym>] ins <strong class=\"tilde\">Haus<\/strong> liefern<\/span> <span class=\"topic\"><acronym title=\"economics\">ÖKON<\/acronym><\/span>",
+										"target": "to deliver [<acronym title=\"something\">sth<\/acronym>] to the door"
+									},
+									{
+										"source": "<span class=\"example\">liefern Sie ins <strong class=\"tilde\">Haus?<\/strong><\/span>",
+										"target": "do you make home deliveries?"
+									},
+									{
+										"source": "<span class=\"full_collocation\"><acronym title=\"jemanden\">jdn<\/acronym> ins <strong class=\"tilde\">Haus<\/strong> nehmen<\/span>",
+										"target": "to take <acronym title=\"somebody\">sb<\/acronym> in[to one&#39;s home]"
+									},
+									{
+										"source": "<span class=\"full_collocation\"><acronym title=\"jemandem\">jdm<\/acronym> das <strong class=\"tilde\">Haus<\/strong> verbieten<\/span>",
+										"target": "to not allow <acronym title=\"somebody\">sb<\/acronym> in the house"
+									},
+									{
+										"source": "<span class=\"grammatical_construction\">nach <strong class=\"tilde\">Hause<\/strong><\/span> <span class=\"grammatical_construction\">[<span class=\"or\"><acronym title=\"oder\">o.<\/acronym><\/span> <span class=\"region\"><acronym title=\"Austrian\" class=\"österr\">A<\/acronym>, <acronym title=\"Swiss\" class=\"schweiz\">CH<\/acronym> <acronym title=\"auch\">a.<\/acronym><\/span> nachhause <span class=\"super\">RR<\/span>]<\/span>",
+										"target": "home"
+									},
+									{
+										"source": "<span class=\"example\">komm nicht so spät nach <strong class=\"tilde\">Hause!<\/strong><\/span>",
+										"target": "don&#39;t come home so late!"
+									},
+									{
+										"source": "<span class=\"example\">es ist nicht mehr weit bis nach <strong class=\"tilde\">Hause!<\/strong><\/span>",
+										"target": "we&#39;re not far from home now!"
+									},
+									{
+										"source": "<span class=\"example\">ich muss nach <strong class=\"tilde\">Hause!<\/strong><\/span>",
+										"target": "I must <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> have to]<\/span> go home!"
+									},
+									{
+										"source": "<span class=\"example\">komm mir bloß nicht damit nach <strong class=\"tilde\">Hause!<\/strong><\/span> <span class=\"rhetoric\"><acronym title=\"figurative\">fig<\/acronym><\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>",
+										"target": "don&#39;t you [dare] come that one with me!"
+									},
+									{
+										"source": "<span class=\"full_collocation\"><acronym title=\"jemanden\">jdn<\/acronym> nach <strong class=\"tilde\">Hause<\/strong> bringen<\/span>",
+										"target": "to see <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> take]<\/span> <acronym title=\"somebody\">sb<\/acronym> home"
+									},
+									{
+										"source": "<span class=\"example\">kannst du mich mit dem Auto nach <strong class=\"tilde\">Hause<\/strong> bringen?<\/span>",
+										"target": "can you drive me home?"
+									},
+									{
+										"source": "<span class=\"full_collocation\"><acronym title=\"jemanden\">jdn<\/acronym> nach <strong class=\"tilde\">Hause<\/strong> schicken<\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>",
+										"target": "to send <acronym title=\"somebody\">sb<\/acronym> packing <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>"
+									},
+									{
+										"source": "<span class=\"full_collocation\"><acronym title=\"jemanden\">jdn<\/acronym> nach <strong class=\"tilde\">Hause<\/strong> schicken<\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>",
+										"target": "to send <acronym title=\"somebody\">sb<\/acronym> home"
+									},
+									{
+										"source": "<span class=\"example\">ich habe den Vertreter gleich wieder nach <strong class=\"tilde\">Hause<\/strong> geschickt<\/span>",
+										"target": "I sent the rep packing straight away"
+									},
+									{
+										"source": "<span class=\"example\">die Lehrerin schickte den Schüler nach <strong class=\"tilde\">Hause<\/strong><\/span>",
+										"target": "the teacher sent the pupil home"
+									},
+									{
+										"source": "<span class=\"grammatical_construction\">zu <strong class=\"tilde\">Hause<\/strong><\/span> <span class=\"grammatical_construction\">[<span class=\"or\"><acronym title=\"oder\">o.<\/acronym><\/span> <span class=\"region\"><acronym title=\"Austrian\" class=\"österr\">A<\/acronym>, <acronym title=\"Swiss\" class=\"schweiz\">CH<\/acronym> <acronym title=\"auch\">a.<\/acronym><\/span> zuhause <span class=\"super\">RR<\/span>]<\/span>",
+										"target": "at home"
+									},
+									{
+										"source": "<span class=\"example\">seid unbedingt vor Mitternacht wieder zu <strong class=\"tilde\">Hause!<\/strong><\/span>",
+										"target": "make sure you&#39;re back home before midnight!"
+									},
+									{
+										"source": "<span class=\"example\">wir können schon in drei Stunden zu <strong class=\"tilde\">Hause<\/strong> sein<\/span>",
+										"target": "we can be home in three hours"
+									},
+									{
+										"source": "<span class=\"example\">wie geht&#39;s zu <strong class=\"tilde\">Hause?<\/strong><\/span>",
+										"target": "how are things at home?"
+									},
+									{
+										"source": "<span class=\"example\">ich bin für niemanden zu <strong class=\"tilde\">Hause<\/strong><\/span>",
+										"target": "I&#39;m not at home to anybody"
+									},
+									{
+										"source": "<span class=\"full_collocation\">von zu <strong class=\"tilde\">Hause<\/strong> aus arbeiten<\/span>",
+										"target": "to work from home"
+									},
+									{
+										"source": "<span class=\"full_collocation\">bei <acronym title=\"jemandem\">jdm<\/acronym> zu <strong class=\"tilde\">Hause<\/strong><\/span>, <span class=\"full_collocation\"> <span class=\"region\"><acronym title=\"Austrian\" class=\"österr\">A<\/acronym>, <acronym title=\"Swiss\" class=\"schweiz\">CH<\/acronym> <acronym title=\"auch\">a.<\/acronym><\/span> zuhause<\/span>",
+										"target": "in <acronym title=\"somebody's\">sb's<\/acronym> home"
+									},
+									{
+										"source": "<span class=\"example\">bei euch zu <strong class=\"tilde\">Hause<\/strong> ist es so gemütlich<\/span>",
+										"target": "there&#39;s such a relaxed atmosphere in your home"
+									},
+									{
+										"source": "<span class=\"example\">bei uns zu <strong class=\"tilde\">Hause<\/strong> wurde vor dem Essen gebetet<\/span>",
+										"target": "we always said prayers before a meal in our house"
+									},
+									{
+										"source": "<span class=\"full_collocation\">sich <span class=\"case\"><acronym title=\"accusative\">akk<\/acronym><\/span> [irgendwo/bei <acronym title=\"jemandem\">jdm<\/acronym>] wie zu <strong class=\"tilde\">Hause<\/strong> fühlen<\/span>",
+										"target": "to feel at home [somewhere/in <acronym title=\"somebody's\">sb's<\/acronym> house]"
+									},
+									{
+										"source": "<span class=\"example\">fühlen Sie sich wie zu <strong class=\"tilde\">Hause!<\/strong><\/span>",
+										"target": "make yourself at home"
+									},
+									{
+										"source": "<span class=\"full_collocation\">irgendwo zu <strong class=\"tilde\">Haus[e]<\/strong> sein<\/span>",
+										"target": "to live <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> come from]<\/span> somewhere"
+									},
+									{
+										"source": "<span class=\"example\">wo sind Sie eigentlich zu <strong class=\"tilde\">Hause?<\/strong><\/span>",
+										"target": "tell me, where are you from?"
+									},
+									{
+										"source": "<span class=\"example\">der Pandabär ist nur in China zu <strong class=\"tilde\">Hause<\/strong><\/span>",
+										"target": "the panda bear can only be found in China"
+									}
+								]
+							},
+							{
+								"header": "3. Haus <span class=\"sense\">(Familie)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "household"
+									},
+									{
+										"source": "<span class=\"example\">er ist ein alter Freund des <strong class=\"tilde\">Hauses<\/strong><\/span>",
+										"target": "he&#39;s an old friend of the family"
+									},
+									{
+										"source": "<span class=\"full_collocation\">aus adligem <strong class=\"tilde\">Hause<\/strong><\/span>",
+										"target": "from a noble family"
+									},
+									{
+										"source": "<span class=\"full_collocation\">aus angesehenem <strong class=\"tilde\">Hause<\/strong><\/span>",
+										"target": "from a respectable family"
+									},
+									{
+										"source": "<span class=\"full_collocation\">aus bürgerlichem/gutem/schlechtem <strong class=\"tilde\">Hause<\/strong> stammend<\/span>",
+										"target": "from a middle-class/good/bad family"
+									},
+									{
+										"source": "<span class=\"full_collocation\">die Dame/der Herr des <strong class=\"tilde\">Hauses<\/strong><\/span>",
+										"target": "the lady/master of the house"
+									},
+									{
+										"source": "<span class=\"full_collocation\">nicht mehr Herr im eigenen <strong class=\"tilde\">Haus<\/strong> sein<\/span>",
+										"target": "to not be master in one&#39;s own house any more"
+									},
+									{
+										"source": "<span class=\"full_collocation\">von <strong class=\"tilde\">Hause<\/strong> aus<\/span>",
+										"target": "by birth"
+									},
+									{
+										"source": "<span class=\"example\">von <strong class=\"tilde\">Hause<\/strong> aus ist sie musikalisch<\/span>",
+										"target": "she comes from a musical family"
+									}
+								]
+							},
+							{
+								"header": "4. Haus <span class=\"sense\">(Dynastie)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "house"
+									},
+									{
+										"source": "<span class=\"example\">die Kaiser von Österreich stammten aus dem <strong class=\"tilde\">Hause<\/strong> Habsburg<\/span>",
+										"target": "the Emperors of Austria came from the House of the Hapsburgs"
+									}
+								]
+							},
+							{
+								"header": "5. Haus <span class=\"sense\">(Haushalt)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "house"
+									},
+									{
+										"source": "<span class=\"full_collocation\">sein <strong class=\"tilde\">Haus<\/strong> bestellen<\/span>",
+										"target": "to put <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> set]<\/span> one&#39;s house in order"
+									},
+									{
+										"source": "<span class=\"full_collocation\"><acronym title=\"jemandem\">jdm<\/acronym> das <strong class=\"tilde\">Haus<\/strong> führen<\/span>",
+										"target": "to keep house for <acronym title=\"somebody\">sb<\/acronym>"
+									},
+									{
+										"source": "<span class=\"full_collocation\">ein großes <strong class=\"tilde\">Haus<\/strong> führen<\/span> <span class=\"style\"><acronym title=\"formal\">geh<\/acronym><\/span>",
+										"target": "to entertain in style"
+									},
+									{
+										"source": "<span class=\"full_collocation\">Haus <strong class=\"tilde\">halten\n<\/strong> <\/span> <span class=\"age\">veraltend<\/span> <span class=\"sense\">(den Haushalt führen)<\/span>",
+										"target": "to keep house"
+									}
+								]
+							},
+							{
+								"header": "6. Haus <span class=\"sense\">(Gesamtheit der Hausbewohner)<\/span>:",
+								"translations": [
+									{
+										"source": "<span class=\"example\">das ganze <strong class=\"tilde\">Haus<\/strong> rannte auf die Straße<\/span>",
+										"target": "the whole house ran onto the street"
+									}
+								]
+							},
+							{
+								"header": "7. Haus <span class=\"sense\">(Villa, Gasthof)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "house"
+									},
+									{
+										"source": "<span class=\"example\"><strong class=\"tilde\">\u201eHaus<\/strong> Talblick\u201c<\/span>",
+										"target": "\u201cTalblick House\u201d"
+									},
+									{
+										"source": "<span class=\"full_collocation\">das erste <strong class=\"tilde\">Haus<\/strong> am Platze<\/span>",
+										"target": "the best hotel in town"
+									},
+									{
+										"source": "<span class=\"full_collocation\">ein gepflegtes [<span class=\"or\"><acronym title=\"oder\">o.<\/acronym><\/span> gut geführtes] <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "a well-run restaurant"
+									},
+									{
+										"source": "<span class=\"full_collocation\">eine Spezialität des <strong class=\"tilde\">Hauses<\/strong><\/span>",
+										"target": "a speciality of the house"
+									}
+								]
+							},
+							{
+								"header": "8. Haus <span class=\"style\"><acronym title=\"formal\">geh<\/acronym><\/span> <span class=\"sense\">(Unternehmen)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "firm"
+									},
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "company"
+									},
+									{
+										"source": "<span class=\"example\">Rauchen ist im ganzen <strong class=\"tilde\">Haus<\/strong> verboten!<\/span>",
+										"target": "smoking is not allowed anywhere in the company buildings"
+									},
+									{
+										"source": "<span class=\"full_collocation\">das erste <strong class=\"tilde\">Haus<\/strong> am Platze<\/span>",
+										"target": "the best firm in the area"
+									},
+									{
+										"source": "<span class=\"full_collocation\">im <strong class=\"tilde\">Hause<\/strong> sein<\/span>",
+										"target": "to be in"
+									},
+									{
+										"source": "<span class=\"example\">Sie können mich jederzeit im Büro erreichen, ich bin den ganzen Tag im <strong class=\"tilde\">Hause<\/strong><\/span>",
+										"target": "you can get me at the office any time, I&#39;m in <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> there]<\/span> all day"
+									}
+								]
+							},
+							{
+								"header": "9. Haus <span class=\"topic\"><acronym title=\"theatre\">THEAT<\/acronym><\/span> <span class=\"sense\">(Saal, Publikum)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "house"
+									},
+									{
+										"source": "<span class=\"full_collocation\">das große/kleine <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "the large/small theatre"
+									},
+									{
+										"source": "<span class=\"full_collocation\">vor vollem [<span class=\"or\"><acronym title=\"oder\">o.<\/acronym><\/span> ausverkauftem]/leerem <strong class=\"tilde\">Hause<\/strong> spielen<\/span>",
+										"target": "to play to a full <span class=\"target\">[<span class=\"or\"><acronym title=\"or\">or<\/acronym><\/span> packed]<\/span> /empty house"
+									}
+								]
+							},
+							{
+								"header": "10. Haus <span class=\"topic\"><acronym title=\"politics\">POL<\/acronym><\/span> <span class=\"sense\">(Kammer)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "House"
+									},
+									{
+										"source": "<span class=\"example\">das Gesetz passierte das <strong class=\"tilde\">Haus<\/strong> ohne Gegenstimmen<\/span>",
+										"target": "the act passed through the House without opposition"
+									},
+									{
+										"source": "<span class=\"full_collocation\">Hohes <strong class=\"tilde\">Haus!<\/strong><\/span> <span class=\"style\"><acronym title=\"formal\">geh<\/acronym><\/span>",
+										"target": "honourable members! <span class=\"style\"><acronym title=\"formal\">form<\/acronym><\/span>"
+									}
+								]
+							},
+							{
+								"header": "11. Haus <span class=\"topic\"><acronym title=\"zoology\">ZOOL<\/acronym><\/span> <span class=\"sense\">(Schneckenhaus)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "house"
+									},
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "shell"
+									}
+								]
+							},
+							{
+								"header": "12. Haus <span class=\"topic\"><acronym title=\"astrology\">ASTROL<\/acronym><\/span> <span class=\"sense\">(Kraftfeld)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "house"
+									}
+								]
+							},
+							{
+								"header": "13. Haus <span class=\"rhetoric\"><acronym title=\"humorous\">hum<\/acronym><\/span> <span class=\"age\">veraltend<\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span> <span class=\"sense\">(Person)<\/span>:",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus<\/strong>",
+										"target": "chap <span class=\"age\">dated<\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>"
+									},
+									{
+										"source": "<span class=\"example\">grüß dich Josef, [du] altes Haus!<\/span>",
+										"target": "hallo Josef, old chap! <span class=\"age\">dated<\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>"
+									}
+								]
+							},
+							{
+								"header": "Phrases:",
+								"translations": [
+									{
+										"source": "<span class=\"idiom_proverb\"><acronym title=\"jemandem\">jdm<\/acronym> das <strong class=\"tilde\">Haus<\/strong> einrennen<\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>",
+										"target": "to be constantly on <acronym title=\"somebody's\">sb's<\/acronym> doorstep <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>"
+									},
+									{
+										"source": "<span class=\"idiom_proverb\">das europäische <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "the family of Europe"
+									},
+									{
+										"source": "<span class=\"idiom_proverb\"><acronym title=\"jemanden\">jdn<\/acronym> ans <strong class=\"tilde\">Haus<\/strong> fesseln<\/span>",
+										"target": "to confine <acronym title=\"somebody\">sb<\/acronym> to the house"
+									},
+									{
+										"source": "<span class=\"example\">seit sie krank ist, ist sie ans <strong class=\"tilde\">Haus<\/strong> gefesselt<\/span>",
+										"target": "since she&#39;s been ill she&#39;s been confined to the house"
+									},
+									{
+										"source": "<span class=\"idiom_proverb\">[mit <acronym title=\"etwas\">etw<\/acronym> <span class=\"case\"><acronym title=\"dative\">dat<\/acronym><\/span>] <strong class=\"tilde\">Haus<\/strong> halten<\/span> <span class=\"sense\">(sparsam wirtschaften)<\/span>",
+										"target": "to be economical [with <acronym title=\"something\">sth<\/acronym>]"
+									},
+									{
+										"source": "<span class=\"example\">wir müssen mit den Vorräten <strong class=\"tilde\">Haus<\/strong> halten<\/span>",
+										"target": "we have to be careful with our provisions"
+									},
+									{
+										"source": "<span class=\"example\">sie kann nicht <strong class=\"tilde\">Haus<\/strong> halten<\/span>",
+										"target": "she cannot hold onto her money"
+									},
+									{
+										"source": "<span class=\"example\">sie kann nicht <strong class=\"tilde\">Haus<\/strong> halten<\/span> <span class=\"sense\">(dosiert einsetzen)<\/span>",
+										"target": "to conserve"
+									},
+									{
+										"source": "<span class=\"example\">ich muss mit meinen Kräften <strong class=\"tilde\">Haus<\/strong> halten<\/span>",
+										"target": "I must conserve my strength"
+									},
+									{
+										"source": "<span class=\"idiom_proverb\">das <strong class=\"tilde\">Haus<\/strong> hüten müssen<\/span>",
+										"target": "to have to stay at home"
+									},
+									{
+										"source": "<span class=\"example\">ich muss wegen einer Grippe das <strong class=\"tilde\">Haus<\/strong> hüten<\/span>",
+										"target": "I have to stay in due to a bout of flu"
+									},
+									{
+										"source": "<span class=\"idiom_proverb\">für <acronym title=\"jemanden\">jdn<\/acronym> ein offenes <strong class=\"tilde\">Haus<\/strong> haben<\/span>",
+										"target": "to keep open house for <acronym title=\"somebody\">sb<\/acronym>"
+									},
+									{
+										"source": "<span class=\"idiom_proverb\"><acronym title=\"jemandem\">jdm<\/acronym> ins <strong class=\"tilde\">Haus<\/strong> schneien<\/span> <span class=\"idiom_proverb\">[<span class=\"or\"><acronym title=\"oder\">o.<\/acronym><\/span> geschneit kommen]<\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span>",
+										"target": "to descend on <acronym title=\"somebody\">sb<\/acronym>"
+									},
+									{
+										"source": "<span class=\"idiom_proverb\">in <acronym title=\"etwas\">etw<\/acronym> <span class=\"case\"><acronym title=\"dative\">dat<\/acronym><\/span> zu <strong class=\"tilde\">Hause<\/strong> sein<\/span>",
+										"target": "to be at home in <acronym title=\"something\">sth<\/acronym>"
+									},
+									{
+										"source": "<span class=\"example\">in der Physik bin ich nicht so zu <strong class=\"tilde\">Hause<\/strong> wie Sie!<\/span>",
+										"target": "I&#39;m not as much at home in physics as you are!"
+									},
+									{
+										"source": "<span class=\"idiom_proverb\">[<acronym title=\"jemandem\">jdm<\/acronym>] ins <strong class=\"tilde\">Haus<\/strong> stehen<\/span>",
+										"target": "to be in store [for <acronym title=\"somebody\">sb<\/acronym>]"
+									},
+									{
+										"source": "<span class=\"example\">vielleicht steht uns ein großer Lottogewinn ins <strong class=\"tilde\">Haus\n<\/strong> <\/span>",
+										"target": "perhaps we&#39;re in store for a big win on the lottery"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entry",
+				"opendict": false,
+				"roms": [
+					{
+						"headword": "Haus-Haus-Ver·kehr",
+						"headword_full": "Haus-Haus-Ver<span class=\"separator\">·<\/span>kehr <span class=\"wordclass\"><acronym title=\"noun\">NOUN<\/acronym><\/span> <span class=\"genus\"><acronym title=\"masculine\">m<\/acronym><\/span> <span class=\"topic\"><acronym title=\"business\">HANDEL<\/acronym><\/span>",
+						"wordclass": "noun",
+						"arabs": [
+							{
+								"header": "",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus-Haus-Verkehr<\/strong>",
+										"target": "door-to-door delivery service"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entry",
+				"opendict": false,
+				"roms": [
+					{
+						"headword": "Haus-zu-Haus-Ver·kauf",
+						"headword_full": "Haus-zu-Haus-Ver<span class=\"separator\">·<\/span>kauf <span class=\"wordclass\"><acronym title=\"noun\">NOUN<\/acronym><\/span> <span class=\"genus\"><acronym title=\"masculine\">m<\/acronym><\/span> <span class=\"topic\"><acronym title=\"business\">HANDEL<\/acronym><\/span>",
+						"wordclass": "noun",
+						"arabs": [
+							{
+								"header": "",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus-zu-Haus-Verkauf<\/strong>",
+										"target": "door-to-door selling"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entry",
+				"opendict": false,
+				"roms": [
+					{
+						"headword": "Frei-Haus-Lie·fe·rung",
+						"headword_full": "Frei-Haus-Lie<span class=\"separator\">·<\/span>fe<span class=\"separator\">·<\/span>rung <span class=\"wordclass\"><acronym title=\"noun\">NOUN<\/acronym><\/span> <span class=\"genus\"><acronym title=\"feminine\">f<\/acronym><\/span> <span class=\"topic\"><acronym title=\"business\">HANDEL<\/acronym><\/span>",
+						"wordclass": "noun",
+						"arabs": [
+							{
+								"header": "",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Frei-Haus-Lieferung<\/strong>",
+										"target": "carriage-free delivery"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entry",
+				"opendict": false,
+				"roms": [
+					{
+						"headword": "Haus- und Grund·stücks·ver·wal·tung",
+						"headword_full": "Haus- und Grund<span class=\"separator\">·<\/span>stücks<span class=\"separator\">·<\/span>ver<span class=\"separator\">·<\/span>wal<span class=\"separator\">·<\/span>tung <span class=\"wordclass\"><acronym title=\"noun\">NOUN<\/acronym><\/span> <span class=\"genus\"><acronym title=\"feminine\">f<\/acronym><\/span>",
+						"wordclass": "noun",
+						"arabs": [
+							{
+								"header": "",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">Haus- und Grundstücksverwaltung<\/strong>",
+										"target": "house and property administration"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entry",
+				"opendict": false,
+				"roms": [
+					{
+						"headword": "hau·sen",
+						"headword_full": "hau<span class=\"separator\">·<\/span>sen <span class=\"phonetics\">[ˈhauzn̩]<\/span> <span class=\"wordclass\"><acronym title=\"verb\">VERB<\/acronym><\/span> <span class=\"verbclass\"><acronym title=\"intransitive verb\">intr<\/acronym><\/span> <span class=\"grammatical_construction\">irgendwo <strong class=\"tilde\">hausen\n<\/strong> <\/span>",
+						"wordclass": "intransitive verb",
+						"arabs": [
+							{
+								"header": "1. hausen <span class=\"rhetoric\"><acronym title=\"pejorative\">pej<\/acronym><\/span> <span class=\"style\"><acronym title=\"informal\">fam<\/acronym><\/span> <span class=\"sense\">(erbärmlich wohnen)<\/span>:",
+								"translations": [
+									{
+										"source": "<span class=\"grammatical_construction\">irgendwo <strong class=\"tilde\">hausen\n<\/strong> <\/span>",
+										"target": "to live [in poor conditions] somewhere"
+									}
+								]
+							},
+							{
+								"header": "2. hausen <span class=\"sense\">(wüten)<\/span>:",
+								"translations": [
+									{
+										"source": "<span class=\"grammatical_construction\">irgendwo <strong class=\"tilde\">hausen\n<\/strong> <\/span>",
+										"target": "to wreak havoc somewhere"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "entry",
+				"opendict": false,
+				"roms": [
+					{
+						"headword": "hau ruck",
+						"headword_full": "hau ruck <span class=\"phonetics\">[ˈhau ˈrʊk]<\/span> <span class=\"wordclass\"><acronym title=\"interjection\">INTERJ<\/acronym><\/span>",
+						"wordclass": "interjection",
+						"arabs": [
+							{
+								"header": "",
+								"translations": [
+									{
+										"source": "<strong class=\"headword\">hau ruck<\/strong>",
+										"target": "heave"
+									},
+									{
+										"source": "<span class=\"example\">so, jetzt ziehen wir alle gemeinsam an dem Seil \u2014 <strong class=\"tilde\">hau ruck!<\/strong> <strong class=\"tilde\">hau ruck!<\/strong><\/span>",
+										"target": "right, let&#39;s all pull on the rope together \u2014 heave-ho! heave-ho!"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

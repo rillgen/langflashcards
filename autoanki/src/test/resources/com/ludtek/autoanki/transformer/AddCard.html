@@ -1,0 +1,154 @@
+
+<!DOCTYPE html> 
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=yes, width=500" />
+    <title>
+
+        Edit - AnkiWeb
+
+</title>
+
+  
+    <link media="only screen and (max-device-width: 480px)" href="/static/iphone.css" type= "text/css" rel="stylesheet" />
+    <link href="/static/bootstrap-responsive.min.css" type= "text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/anki.css?2015-11-07" type="text/css" media="screen" />
+
+
+
+
+
+
+<script src="/static/js/json2.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="/static/js/jquery.hotkeys.js" type="text/javascript">
+</script>
+<script>
+$(function () { window.scrollTo(0, 1) } );
+</script>
+
+  </head>
+  <body>
+
+    
+
+
+
+
+
+    <div id="header">
+        <div id="headerInner">
+            <a href="/" style="float:left;">
+                <img id=logo style="margin-left: 0.5em;border: 0px"
+                     src="/static/anki-logo.png"></a>
+            <div style="float:right;color:#fff;">
+                <table id="headerTable" style="height:50px;" cellpadding=0>
+                    <tr>
+                    <td valign=center align=right style="padding-right: 1em;">
+                            <a href="/account/settings"
+                               class="mitem2">Settings</a> <span
+                                style="color: #777;">|</span>
+                            <a href="/account/logout" class="mitem2">Logout</a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td valign=bottom align=right>
+                        <a href="/decks/" class="mitem">Decks</a>
+                        <a href="/study/" class="mitem">Study</a>
+                        <a href="/edit/" class="mitem">Add</a>
+                        <a href="/search/" class="mitem">Search</a>
+                    </td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).bind('keyup', 'd', function(){
+            location.href="/decks/";});
+        $(document).bind('keyup', 's', function(){
+            location.href="/study/";});
+        $(document).bind('keyup', 'a', function(){
+            location.href="/edit/";});
+        $(document).bind('keyup', 'b', function(){
+            location.href="/search/";});
+    </script>
+
+<div id="contentOuter">
+    <div id="content">
+        
+
+<link rel="stylesheet" href="/static/jquery-ui-1.8.16.custom.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/static/editor.css" type="text/css" media="screen" />
+<script src="/static/js/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="/static/js/editor.js?20170111"></script>
+
+<h1 id=toptitle>Add</h1>
+
+<table id=modelarea width=100%>
+<tr>
+<td class=fname><b>Note Type</b></td>
+<td><select id=models></select>
+<button onclick="editor.configure();"><img height=10
+src="/static/icons/configure.png"></button>
+</td>
+<td>
+<button class=mitem3 onclick='editor.save();'>Save</button></td>
+</tr>
+<tr>
+<td class=fname><label for="deck">Deck</label></td>
+<td><input id=deck></td>
+<td><div id=msg style="color: blue;"></div></td>
+</tr>
+</table>
+<br>
+
+<div id=save2>
+<button class=mitem3 onclick='editor.save();'>Save</button>
+</div>
+
+<div id=fields></div>
+
+<script>
+if (editor.version != "20170111") { window.location = "/"; }
+editor.csrf_token = 'eyJpYXQiOiAxNDg0Njg2OTE2LCAiZmxhZyI6IDEsICJ1aWQiOiAiY2IzNmYyMjgiLCAib3AiOiAiZWRpdCJ9.aH-L-w7c7E7TX8UO_3W_Z0b8Ma0XtjMYKeypKt4A47c';
+editor.csrf_token2 = 'eyJpYXQiOiAxNDg0Njg2OTE2LCAidWlkIjogImNiMzZmMjI4IiwgIm9wIjogImVkaXQifQ.dy1FJA1OtmP5S2M_tE-AAyjkb-vMYHaQRoqcl5_g6m4';
+$("#toptitle").text("Add");
+
+editor.mode = "add";
+editor.models = [{"vers": [], "name": "Basic (and reversed card)", "tags": [], "did": 1, "usn": 0, "req": [[0, "all", [0]], [1, "all", [1]]], "flds": [{"name": "Front", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 20}, {"name": "Back", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 20}], "sortf": 0, "tmpls": [{"name": "Card 1", "qfmt": "{{Front}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", "ord": 0, "bqfmt": ""}, {"name": "Card 2", "qfmt": "{{Back}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}", "ord": 1, "bqfmt": ""}], "mod": 1484587861, "latexPost": "\\end{document}", "type": 0, "id": "1484587861425", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n"}, {"vers": [], "name": "Basic (optional reversed card)", "tags": [], "did": 1, "usn": 0, "req": [[0, "all", [0]], [1, "all", [1, 2]]], "flds": [{"name": "Front", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 20}, {"name": "Back", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 20}, {"name": "Add Reverse", "media": [], "sticky": false, "rtl": false, "ord": 2, "font": "Arial", "size": 20}], "sortf": 0, "tmpls": [{"name": "Card 1", "qfmt": "{{Front}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", "ord": 0, "bqfmt": ""}, {"name": "Card 2", "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}", "ord": 1, "bqfmt": ""}], "mod": 1484587861, "latexPost": "\\end{document}", "type": 0, "id": "1484587861424", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n"}, {"vers": [], "name": "Basic", "tags": [], "did": 1484596483901, "usn": 8, "req": [[0, "all", [0]]], "flds": [{"name": "Front", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 20}, {"name": "Back", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 20}], "sortf": 0, "tmpls": [{"name": "Card 1", "qfmt": "{{Front}}", "did": null, "bafmt": "", "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", "ord": 0, "bqfmt": ""}], "mod": 1484596690, "latexPost": "\\end{document}", "type": 0, "id": "1484587861426", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n"}, {"vers": [], "name": "Cloze", "tags": [], "did": 1, "usn": 0, "flds": [{"name": "Text", "media": [], "sticky": false, "rtl": false, "ord": 0, "font": "Arial", "size": 20}, {"name": "Extra", "media": [], "sticky": false, "rtl": false, "ord": 1, "font": "Arial", "size": 20}], "sortf": 0, "tmpls": [{"name": "Cloze", "qfmt": "{{cloze:Text}}", "did": null, "bafmt": "", "afmt": "{{cloze:Text}}<br>\n{{Extra}}", "ord": 0, "bqfmt": ""}], "mod": 1484587861, "latexPost": "\\end{document}", "type": 1, "id": "1484587861423", "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n"}];
+editor.decks = {"1": {"name": "Default", "extendRev": 50, "usn": 11, "collapsed": false, "newToday": [2, 0], "mid": "1484587861425", "timeToday": [2, 0], "dyn": 0, "extendNew": 10, "conf": 1, "revToday": [2, 0], "lrnToday": [2, 0], "id": 1, "mod": 1484682225, "desc": ""}, "1484596483900": {"desc": "", "name": "Deutsch", "extendRev": 50, "usn": 6, "collapsed": false, "newToday": [2, 0], "timeToday": [2, 0], "dyn": 0, "extendNew": 10, "conf": 1, "revToday": [2, 0], "lrnToday": [2, 0], "id": 1484596483900, "mod": 1484596483}, "1484680526698": {"name": "Deutsch::Verben", "extendRev": 50, "usn": 10, "collapsed": false, "newToday": [2, 0], "timeToday": [2, 0], "dyn": 0, "extendNew": 10, "conf": 1, "revToday": [2, 0], "lrnToday": [2, 0], "id": 1484680526698, "mod": 1484680526, "desc": ""}, "1484680519106": {"name": "Deutsch::Nomen", "extendRev": 50, "usn": 11, "collapsed": false, "newToday": [2, 0], "mid": "1484587861426", "timeToday": [2, 0], "dyn": 0, "extendNew": 10, "conf": 1, "revToday": [2, 0], "lrnToday": [2, 0], "id": 1484680519106, "mod": 1484682203, "desc": ""}};
+editor.curModelID = "1484587861425";
+$(function () { editor.init(); });
+</script>
+
+    </div>
+</div>
+
+    <div id="footer">
+        <ul class="menu">
+            <li><a href="/about">About</a>
+            <li><a href="/account/terms">Terms of use</a>
+        </ul>
+    </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4621885-5']);
+  _gaq.push(['_setDomainName', '.ankiweb.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>
