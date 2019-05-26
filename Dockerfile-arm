@@ -1,0 +1,5 @@
+FROM arm32v7/openjdk:slim
+
+ADD fcardbot/target/fcardbot.jar /app/fcardbot.jar
+
+CMD ["java", "-jar", "/app/fcardbot.jar"]
