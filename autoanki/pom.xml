@@ -19,7 +19,7 @@
         <java.version>1.8</java.version>
         <junit.version>4.11</junit.version>
         <groovy.version>2.5.7</groovy.version>
-        <httpcomponents.version>4.5.3</httpcomponents.version>
+        <httpcomponents.version>4.5.13</httpcomponents.version>
     </properties>
 
     <dependencies>
